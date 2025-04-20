@@ -1,6 +1,14 @@
 > ![git text](/Security/img/IFS.png)
 
 
+<h1>⚡ ChargerEfisen - Battery Protection Utility</h1>
+
+<p><strong>Version:</strong> 1.0 [ Battery Custom ]<br>
+<strong>Author:</strong> ChargerEfisen Team<br>
+<strong>License:</strong> &copy; 2025 ChargerEfisen Project. All rights reserved.</p>
+
+<hr/>
+
 > [!NOTE]
 > **Description:**
 > - Script C++ ini saya buat untuk mengatur perlindungan baterai Android secara otomatis berdasarkan opsi yang dipilih.
@@ -28,4 +36,51 @@
 > - Jika Anda ingin menggunakan atau menyertakan script ini dalam proyek lain/module, harap mencantumkan **credit** kepada pembuat asli.
 > - Penggunaan tanpa izin atau perubahan tanpa mencantumkan sumber **adalah pelanggaran**.
 > - Penulis tidak bertanggung jawab atas kerusakan/perubahan pada perangkat akibat penggunaan script ini.
+<hr/>
+
+<h2>🚀 Usage</h2>
+
+<pre><code>ChargerEfisen [OPTION]
+</code></pre>
+
+<table>
+<thead>
+<tr><th>Option</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><code>-d</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>85%</strong>.</td></tr>
+<tr><td><code>-L</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>80%</strong>.</td></tr>
+<tr><td><code>-O</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>70%</strong>.</td></tr>
+<tr><td><code>-R</code></td><td>Reset profil baterai ke <strong>default</strong>.</td></tr>
+<tr><td><code>-h</code>, <code>--help</code></td><td>Tampilkan bantuan pemakaian.</td></tr>
+</tbody>
+</table>
+
+<hr/>
+
+<h2>📚 Example Commands</h2>
+
+<pre><code># Aktifkan proteksi 85%
+ChargerEfisen -d
+
+# Aktifkan proteksi 80%
+ChargerEfisen -L
+
+# Aktifkan proteksi 70%
+ChargerEfisen -O
+
+# Reset profil baterai
+ChargerEfisen -R
+</code></pre>
+
+<hr/>
+
+<h2>ℹ️ More Info</h2>
+
+<ul>
+<li><a href="https://developer.android.com/studio/command-line/adb" target="_blank">Android Developer Documentation</a></li>
+<li><a href="https://forum.xda-developers.com" target="_blank">XDA Developers Community</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/android" target="_blank">Stack Overflow Help & Q&A</a></li>
+</ul>
+
 <hr/>
