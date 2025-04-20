@@ -29,7 +29,7 @@
 > - Penulis tidak bertanggung jawab atas kerusakan/perubahan pada perangkat akibat penggunaan script ini.
 <hr/>
 
-<h2>🚀 Usage</h2>
+> [!USAGE]
 
 <pre><code>ChargerEfisen [OPTION]
 </code></pre>
