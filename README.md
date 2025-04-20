@@ -29,7 +29,7 @@
 > - Penulis tidak bertanggung jawab atas kerusakan/perubahan pada perangkat akibat penggunaan script ini.
 <hr/>
 
-> [!USAGE]
+> [!INFO]
 > **Usage:**
 > ```
 > ChargerEfisen [OPTION]
