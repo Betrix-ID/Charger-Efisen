@@ -1,14 +1,5 @@
 > ![git text](/Security/img/IFS.png)
 
-
-<h1>⚡ ChargerEfisen - Battery Protection Utility</h1>
-
-<p><strong>Version:</strong> 1.0 [ Battery Custom ]<br>
-<strong>Author:</strong> ChargerEfisen Team<br>
-<strong>License:</strong> &copy; 2025 ChargerEfisen Project. All rights reserved.</p>
-
-<hr/>
-
 > [!NOTE]
 > **Description:**
 > - Script C++ ini saya buat untuk mengatur perlindungan baterai Android secara otomatis berdasarkan opsi yang dipilih.
