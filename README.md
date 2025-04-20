@@ -41,6 +41,7 @@
 > - `-O` : Aktifkan proteksi baterai berhenti charging di **70%**.
 > - `-R` : Reset profil baterai ke **default**.
 > - `-h`, `--help` : Tampilkan bantuan pemakaian.
+<hr/>
 
 
 <h2>📚 Example Commands</h2>
