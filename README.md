@@ -3,7 +3,7 @@
 <h1>⚡ ChargerEfisen - Battery Protection Utility</h1>
 
 <p><strong>Version:</strong> 1.0 [ Battery Custom ]<br>
-<strong>Author:</strong> ChargerEfisen Team<br>
+<strong>Author:</strong> @UnixeID<br>
 <strong>License:</strong> &copy; 2025 ChargerEfisen Project. All rights reserved.</p>
 
 <hr>
