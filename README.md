@@ -10,8 +10,11 @@
 
 <h2>📄 Description</h2>
 
-<p><strong>ChargerEfisen</strong> is a lightweight utility designed to <strong>protect your Android device's battery health</strong> by automatically <strong>stopping the charging process</strong> at a predefined level (70%, 80%, or 85%).<br>
-This tool helps <strong>extend your battery lifespan</strong> and <strong>optimize device performance</strong> over time.</p>
+<p><strong>Deskripsi Script:</strong></p>
+
+<p>Script ini adalah utilitas ringan untuk meningkatkan efisiensi dan memperpanjang umur baterai dengan cara mensimulasikan penghentian pengisian daya setelah mencapai persentase tertentu.<br>
+Dengan menggunakan perintah <code>cmd battery unplug</code>, script ini memberi tahu sistem untuk menganggap charger terlepas secara virtual, tanpa benar-benar memutuskan koneksi fisik charger.<br>
+Pengisian akan dihentikan secara simulasi pada batas yang ditentukan (seperti 70%, 80%, atau 85%), dan diizinkan kembali saat baterai turun di bawah ambang batas yang ditetapkan, membantu mencegah overcharging dan memperpanjang umur baterai perangkat Android.</p>
 
 <hr>
 
