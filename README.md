@@ -30,23 +30,17 @@
 <hr/>
 
 > [!USAGE]
-
-<pre><code>ChargerEfisen [OPTION]
-</code></pre>
-
-<table>
-<thead>
-<tr><th>Option</th><th>Description</th></tr>
-</thead>
-<tbody>
-<tr><td><code>-d</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>85%</strong>.</td></tr>
-<tr><td><code>-L</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>80%</strong>.</td></tr>
-<tr><td><code>-O</code></td><td>Aktifkan proteksi baterai berhenti charging di <strong>70%</strong>.</td></tr>
-<tr><td><code>-R</code></td><td>Reset profil baterai ke <strong>default</strong>.</td></tr>
-<tr><td><code>-h</code>, <code>--help</code></td><td>Tampilkan bantuan pemakaian.</td></tr>
-</tbody>
-</table>
-
+> **Usage:**
+> ```
+> ChargerEfisen [OPTION]
+> ```
+> 
+> **Options:**
+> - `-d` : Aktifkan proteksi baterai berhenti charging di **85%**.
+> - `-L` : Aktifkan proteksi baterai berhenti charging di **80%**.
+> - `-O` : Aktifkan proteksi baterai berhenti charging di **70%**.
+> - `-R` : Reset profil baterai ke **default**.
+> - `-h`, `--help` : Tampilkan bantuan pemakaian.
 <hr/>
 
 <h2>📚 Example Commands</h2>
