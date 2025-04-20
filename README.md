@@ -29,19 +29,16 @@
 > - Penulis tidak bertanggung jawab atas kerusakan/perubahan pada perangkat akibat penggunaan script ini.
 <hr/>
 
-> [!INFO]
-> **Usage:**
-> ```
-> ChargerEfisen [OPTION]
-> ```
-> 
-> **Options:**
-> - `-d` : Aktifkan proteksi baterai berhenti charging di **85%**.
-> - `-L` : Aktifkan proteksi baterai berhenti charging di **80%**.
-> - `-O` : Aktifkan proteksi baterai berhenti charging di **70%**.
-> - `-R` : Reset profil baterai ke **default**.
-> - `-h`, `--help` : Tampilkan bantuan pemakaian.
-<hr/>
+<div style="background-color: #e7f3fe; padding: 10px; border-left: 6px solid #2196F3;">
+<strong>Usage:</strong><br><br>
+ChargerEfisen [OPTION]
+
+- <code>-d</code> : Aktifkan proteksi di <strong>85%</strong>.
+- <code>-L</code> : Aktifkan proteksi di <strong>80%</strong>.
+- <code>-O</code> : Aktifkan proteksi di <strong>70%</strong>.
+- <code>-R</code> : Reset baterai ke <strong>default</strong>.
+- <code>-h</code>, <code>--help</code> : Bantuan pemakaian.
+</div>
 
 
 <h2>📚 Example Commands</h2>
