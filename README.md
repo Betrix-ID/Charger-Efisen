@@ -1,69 +1,82 @@
 > ![git text](/Security/img/IFS.png)
 
-> [!NOTE]
-> **Description:**
-> - Script C++ ini saya buat untuk mengatur perlindungan baterai Android secara otomatis berdasarkan opsi yang dipilih.
-<hr/>
+<h1>⚡ ChargerEfisen - Battery Protection Utility</h1>
 
-> [!IMPORTANT]
-> **Features:**
-> 1. Battery lifespan extension: Menghentikan charging otomatis di 70%, 80%, atau 85%.
-> 2. Automatic battery management: Tidak perlu monitoring manual saat charging.
-> 3. Lightweight & fast: Script sederhana tanpa beban resource berat.
-> 4. Safe to use: Tidak memodifikasi sistem permanen (reversible).
-> 5. Easy to control: Cukup dengan opsi sederhana (-d, -L, -O, -R).
-> - *Effectiveness may vary depending on the device and system firmware.*
-<hr/>
+<p><strong>Version:</strong> 1.0 [ Battery Custom ]<br>
+<strong>Author:</strong> YourName<br>
+<strong>License:</strong> &copy; 2025 ChargerEfisen Team. All rights reserved.</p>
 
-> [!TIP]
-> **Tips Before Use:**
-> - Pastikan perangkat Android kamu sudah mengaktifkan `adb shell`.
-> - Untuk fitur maksimal, beberapa perangkat mungkin membutuhkan akses root.
-> - Gunakan pada perangkat yang mendukung kontrol charging melalui adb/sysfs.
-<hr/>
+<hr>
 
-> [!WARNING]
-> **License & Credit Notice:**
-> - Jika Anda ingin menggunakan atau menyertakan script ini dalam proyek lain/module, harap mencantumkan **credit** kepada pembuat asli.
-> - Penggunaan tanpa izin atau perubahan tanpa mencantumkan sumber **adalah pelanggaran**.
-> - Penulis tidak bertanggung jawab atas kerusakan/perubahan pada perangkat akibat penggunaan script ini.
-<hr/>
+<h2>📄 Description</h2>
 
-<div style="background-color: #e7f3fe; padding: 10px; border-left: 6px solid #2196F3;">
-<strong>Usage:</strong><br><br>
-ChargerEfisen [OPTION]
+<p><strong>ChargerEfisen</strong> is a lightweight utility designed to <strong>protect your Android device's battery health</strong> by automatically <strong>stopping charging</strong> at a predefined level (70%, 80%, or 85%).<br>
+It helps <strong>extend battery lifespan</strong> and optimize device performance.</p>
 
-- <code>-d</code> : Aktifkan proteksi di <strong>85%</strong>.
-- <code>-L</code> : Aktifkan proteksi di <strong>80%</strong>.
-- <code>-O</code> : Aktifkan proteksi di <strong>70%</strong>.
-- <code>-R</code> : Reset baterai ke <strong>default</strong>.
-- <code>-h</code>, <code>--help</code> : Bantuan pemakaian.
-</div>
+<hr>
 
+<h2>🚀 Usage</h2>
 
-<h2>📚 Example Commands</h2>
+<pre><code>ChargerEfisen [OPTION]
+</code></pre>
 
-<pre><code># Aktifkan proteksi 85%
+<table>
+<thead>
+<tr><th>Option</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><code>-d</code></td><td>Activate battery protection to stop charging at <strong>85%</strong>.</td></tr>
+<tr><td><code>-L</code></td><td>Activate battery protection to stop charging at <strong>80%</strong>.</td></tr>
+<tr><td><code>-O</code></td><td>Activate battery protection to stop charging at <strong>70%</strong>.</td></tr>
+<tr><td><code>-R</code></td><td>Reset the battery profile to <strong>default</strong>.</td></tr>
+<tr><td><code>-h</code>, <code>--help</code></td><td>Display this help information.</td></tr>
+</tbody>
+</table>
+
+<hr>
+
+<h2>🛠️ Requirements</h2>
+
+<ul>
+<li>Root access <em>(may be required)</em> to modify charging behavior.</li>
+<li>Device must support <strong>ADB Shell</strong> commands.</li>
+<li>Tested on various Android devices.</li>
+</ul>
+
+<hr>
+
+<h2>📚 Examples</h2>
+
+<pre><code># Activate 85% protection
 ChargerEfisen -d
 
-# Aktifkan proteksi 80%
+# Activate 80% protection
 ChargerEfisen -L
 
-# Aktifkan proteksi 70%
+# Activate 70% protection
 ChargerEfisen -O
 
-# Reset profil baterai
+# Reset battery profile
 ChargerEfisen -R
 </code></pre>
 
-<hr/>
+<hr>
 
 <h2>ℹ️ More Info</h2>
 
 <ul>
-<li><a href="https://developer.android.com/studio/command-line/adb" target="_blank">Android Developer Documentation</a></li>
-<li><a href="https://forum.xda-developers.com" target="_blank">XDA Developers Community</a></li>
-<li><a href="https://stackoverflow.com/questions/tagged/android" target="_blank">Stack Overflow Help & Q&A</a></li>
+<li><a href="https://developer.android.com/studio/command-line/adb">Android Developer Documentation</a></li>
+<li><a href="https://forum.xda-developers.com">XDA Developers Community</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/android">Stack Overflow Help & Q&A</a></li>
 </ul>
 
-<hr/>
+<hr>
+
+<h2>⚠️ Disclaimer</h2>
+
+<blockquote>
+This tool is intended for <strong>personal use</strong> only.<br>
+Redistribution, modification, or commercial usage without <strong>written permission</strong> from the author is <strong>strictly prohibited</strong>.
+</blockquote>
+
+<hr>
